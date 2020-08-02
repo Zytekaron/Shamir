@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'com.zytekaron'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.codahale:shamir:0.7.0'
+    compile 'com.google.guava:guava:29.0-jre'
+}
